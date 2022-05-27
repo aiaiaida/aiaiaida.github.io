@@ -1,0 +1,180 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.col-sm-8 {
+    display: flex;
+    justify-content: right;
+}
+
+header .col-sm-8 li {
+    display: inline;
+    padding: 1em;
+}
+
+.col-sm-8 a {
+    text-decoration: none;
+    color: #5F5481;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+    .col-sm-8 a:hover {
+        text-decoration: none;
+        color: #281E48;
+    }
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+.col-sm-4 a {
+    font-weight: 700;
+    margin: 0;
+    color: #EAB6DF;
+    text-decoration: none;
+}
+
+span {
+    color: #64b0e4;
+}
+
+.col-sm-4 a:hover {
+    text-decoration: none;
+    color: #EAB6DF;
+}
+
+
+
+header nav {
+    text-decoration: none;
+}
+
+
+
+.jumbotron {
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-size: contain;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64b0e4;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#container-intro {
+    background: hsl(177, 100%, 96%, 0.2);
+    color: white;
+    border-radius: 0.5em;
+}
+
+.jumbotron h2 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    color: #64b0e4;
+}
+
+.jumbotron h3 {
+    margin: 20px 20px 20px;
+    color: #EAB6DF;
+    font-size: 60px;
+}
+
+
+
+#about-me {
+    display: table;
+    margin: 50px auto 20px auto;
+    color: #64b0e4;
+    font-size: 2em;
+    border-radius: 0.5em;
+}
+
+#intro-of-me {
+    display: table;
+    margin: 20px 50px 20px 100px;
+    background: hsl(298, 100%, 91%, 0.1);
+    color: #EAB6DF;
+    font-family: 'Courgette', cursive;
+    font-size: 1.3em;
+    border-radius: 1em;
+}
+
+
+section .row-gallery img {
+    margin: 0 0 30px;
+    width: 30%;
+    border: 5px solid hsl(298, 100%, 91%, 0.5);
+    border-radius: 1em;
+}
+
+.btn.btn-primary {
+    border-radius: 0.5em;
+    border: 0px;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #3a8fc9;
+}
+
+ .btn.btn-primary:hover {
+    color: #3a8fc9;
+    background: hsl(177, 100%, 96%, 0.2);
+}
+
+.btn-secondary {
+    background-color: deepskyblue;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
+#my-gallery {
+    color: #64b0e4;
+    font-size: 2em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: left;
+    margin: 50px auto 30px auto;
+}
+
+
+.col-sm-12 p {
+    display: table;
+    margin: 0px auto 30px auto;
+    background: hsl(298, 100%, 91%, 0.1);
+    color: #EAB6DF;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    border-radius: 1em;
+}
+
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+    footer .col-sm-8 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer li img {
+        height: 32px;
+        width: 32px;
+    }
